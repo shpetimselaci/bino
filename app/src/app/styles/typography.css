@@ -1,0 +1,8 @@
+@layer utilities {
+  .h1 {
+    @apply text-h1 leading-[text-5xl] tracking-tight text-primary;
+  }
+  .h2 {
+    @apply font-inter font-semibold text-h2 leading-[text-5xl] tracking-tight text-primary;
+  }
+}
