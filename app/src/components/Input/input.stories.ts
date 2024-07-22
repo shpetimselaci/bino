@@ -13,22 +13,13 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Small: Story = {
-  args: {
-    size: "small",
-    label: "Input",
-  },
+
 };
 
 export const Medium: Story = {
-  args: {
-    size: "medium",
-    label: "Input",
-  },
+
 };
 
 export const Large: Story = {
-  args: {
-    size: "large",
-    label: "Input",
-  },
+
 };

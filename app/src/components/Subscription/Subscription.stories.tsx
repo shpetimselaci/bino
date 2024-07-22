@@ -9,6 +9,6 @@ export default {
 export const PrimarySubscription = () => (
   <>
     <Primary />
-    <Input label="Placeholder" size="large" />
+    <Input size={46} />
   </>
 );
