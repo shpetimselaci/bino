@@ -13,13 +13,19 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Small: Story = {
-
+  args: {
+    variant: 'sm'
+  }
 };
 
 export const Medium: Story = {
-
+  args: {
+    variant: 'default'
+  }
 };
 
 export const Large: Story = {
-
+  args: {
+    variant: 'lg'
+  }
 };
