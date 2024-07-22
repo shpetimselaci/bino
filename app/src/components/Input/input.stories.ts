@@ -3,7 +3,7 @@ import { fn } from "@storybook/test";
 import { Input } from "./Input";
 
 const meta = {
-  title: "Example/Input",
+  title: "Components/Input",
   component: Input,
 
   args: { onClick: fn() },
